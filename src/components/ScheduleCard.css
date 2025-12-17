@@ -1,0 +1,21 @@
+.schedule-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.schedule-day {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.schedule-time {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.schedule-game {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}

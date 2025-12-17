@@ -1,0 +1,10 @@
+.schedule-note {
+  color: var(--color-text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
